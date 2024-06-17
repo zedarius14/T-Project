@@ -1,0 +1,687 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+
+
+   
+}
+
+
+body {
+    
+    font-family: 'Poppins';
+    background-color: #74B72E;
+}
+
+
+.nav-buttons{
+    margin-left: 50%;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+*{
+    /* background-color: #74B72E; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+h6 {
+    color: #d8d8d8;
+}
+
+    button {
+        font-size: 0.8;
+        font-weight: 900;
+        outline: none;
+        border: none;
+        background-color: #1d1d1d;
+        color: aliceblue;
+        padding: 13px 30px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.5s ease;
+
+    }
+
+
+    button:hover{
+        background-color: #607D38;
+    }
+.navbar {
+    font-size: 16px;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+    padding: 0 20px;
+    color: black;
+    transition: 0.4s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar .navbar-nav .nav-link.active
+.navbar i:hover{
+    color: #607D38;
+}
+
+.navbar i {
+    font-size: 1.2rem;
+    padding: 12px 0.7px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    margin-left: 5px;
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width:990px){
+
+    .nav-buttons {
+        margin: 10px;
+    }
+
+    .nav-buttons ul {
+        margin: 1rem;
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+.nav-buttons ul .fa-solid {
+    margin: 0 5px 5px 5px;
+    font-size: 1rem;
+
+}
+
+#brand {
+    margin: 40px 0;
+    margin-left: 40px;
+}
+
+
+#home {
+    background-image: url(../imgs/bgx33.png);
+    width: 100%;
+    height: 100vh;
+    background-position-y: 40px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home h1 {
+    color:  #607D38;
+    font-family: 'Poppins';
+}
+
+.tagline {
+    text-align: center;
+    background-color: #d8d8d8;
+    padding: 20px;
+    font-family: 'Kumar One';
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+#new .one img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#new .one {
+    position: relative;
+}
+
+#new .one .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #03C04A;
+    font-weight: bold;
+    transition: 0.4s ease;
+    opacity: 0.7;
+    background-color: rgba(1, 1, 1, 0.808);
+    width: 100%;
+    height: 100%;
+
+}
+
+#new .one .details:hover {
+
+    background-color: transparent;
+    color: #03C04A;
+}
+
+#new .one:nth-child(1) .details {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+#new .one:nth-child(2) .details {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+#new .one:nth-child(3) .details {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+#featured img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+
+  /* Product */
+
+  .product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+  }
+
+  .product a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .product img{
+    transition: 0.3s all;
+  }
+
+  .product:hover img{
+    opacity: 0.7;
+  }
+
+  .star{
+    padding: 10px;
+  }
+
+  .star i {
+    font-size: 0.9rem;
+    color: goldenrod;
+  }
+
+  #search {
+    float: left;
+    width: 15%; /* Adjust width as necessary */
+  }
+  
+  .container {
+    padding-left: 0; /* Remove left padding if necessary */
+  }
+  
+  @media (max-width: 768px) {
+    #search {
+      width: 100%; /* Make it full-width on smaller screens */
+    }
+  }
+  
+
+
+
+
+
+
+  #banner{
+    background-image: url(../imgs/bgx33.png);
+    width: 100%;
+    height: 100vh;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+
+  #banner h4{
+    color: #063819;
+  }
+
+  #banner h1{
+    color: rgb(57, 57, 58);
+  }
+
+  #banner button{
+    background-color: rgb(54, 41, 41);
+  }
+
+  #banner button:hover{
+    background-color: rgb(117, 75, 75);
+    color: rgb(255, 255, 255);
+  }
+
+
+footer{
+    background-color: #222222;
+}
+
+footer h5{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer h6{
+    color: whitesmoke;
+}
+
+footer p{
+    color: #999;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: white;
+}
+
+footer .copyright a{
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    transition: 0.3s ease;
+    margin: 0 10px;
+}
+
+footer .copyright a:hover{
+    color: whitesmoke;
+    background-color: #063819;
+}
+
+footer .copyright img {
+    width: 60%;
+}
+
+
+
+/* single-product */
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small-img-col{
+    flex-basis: 25%;
+    cursor: pointer;
+}
+    
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.single-product input:focus{
+    outline: none;
+}
+
+
+.single-product .buy-btn{
+    background-color: #607D38;
+    opacity: 1;
+    transition: 0.4s all;
+}
+
+.single-product .buy-btn:hover{
+    background-color: #222222;
+
+}
+
+
+/* cart */
+
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cart th{
+    text-align: left;
+    padding:  5px 10px;
+    color: white;
+    background-color: #03C04A;
+}
+
+.cart td{
+    padding: 10px 20px;
+
+}
+
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.cart td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+.cart td a{
+    color: #607D38;
+
+}
+
+.cart .remove-btn{
+    color: #607D38;
+    text-decoration: none;
+    background-color: none;
+    border:none;
+    width: 100%;
+}
+
+.cart .edit-btn{
+    color: #607D38;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+}
+
+.cart .product-info p{
+    margin: 3px;
+}
+
+
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.cart-total table{
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid #607D38;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+
+.checkout-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.checkout-btn{
+    
+    background-color: #607D38;
+    color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.checkout-btn:hover{
+    color: #063819;
+}
+
+/*Login*/
+
+#login-form{
+width: 50%;
+margin: 5px auto;
+text-align: center;
+padding: 20px;
+border-top: 1px solid#607D38;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#login-form #login-btn{
+    background-color: #607D38;
+    color: whitesmoke;
+}
+
+#login-form #register-url{
+    color: #03C04A;
+}
+
+
+/*Register*/
+
+#register-form{
+    width: 50%;
+margin: 5px auto;
+text-align: center;
+padding: 20px;
+border-top: 1px solid#607D38;
+}
+
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#register-form #register-btn{
+    background-color: #607D38;
+    color: whitesmoke;
+}
+
+#register-form #login-url{
+    color: #03C04A;
+}
+
+/*Account-form*/
+
+#account-form{
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+    padding: 20px;   
+}
+
+#account-form input{
+    margin: 5px auto;
+}
+
+#account-form #change-pass-btn{
+    color: whitesmoke;
+    background-color: #607D38;
+}
+
+.account-info #orders-btn,#logout-btn{
+    color: #607D38;
+    text-decoration: none;
+}
+
+
+/*Orders*/
+
+.orders table{
+
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.orders .product-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.orders th{
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: #607D38;
+    /* text-align: left; */
+}
+
+.orders th:nth-child(2){
+    /* text-align: right; */
+}
+
+.orders td{
+    padding: 10px 20px;
+}
+
+.orders td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.orders .order-details-btn{
+    color: white;
+    background-color: #607D38;
+}
+
+.orders .order-details-btn:hover{
+    background-color: #607D38;
+}
+
+/*Checkout*/
+
+#checkout-form .checkout-small-element{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+
+#checkout-form .checkout-large-element{
+    width: 96%;
+}
+
+#checkout-form .checkout-btn-container{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#checkout-form #checkout-btn{
+    color: whitesmoke;
+    background-color: #607D38;
+}
+
+
+/* Contact*/
+
+#contact span {
+    color: #607D38;
+}
+
+
+.cart-quantity {
+    background-color: #607D38;
+    color: whitesmoke;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin: -5px;
+    font-size: 0.6rem;
+}
+
+.custom-background {
+    background-color: #607D38;
+}
